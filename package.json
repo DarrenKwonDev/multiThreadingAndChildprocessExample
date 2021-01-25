@@ -1,0 +1,14 @@
+{
+  "name": "multithread",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:mul": "nodemon --exec node multithread.js",
+    "start:child": "nodemon --exec node child.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
